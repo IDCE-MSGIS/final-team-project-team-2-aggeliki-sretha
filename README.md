@@ -1,35 +1,15 @@
-## Final Project: Script 1
-### Web-scraping Weather Forecast Information with Python
-In this lab, you will work with a script that scrapes the 5-day weather forecast from the National Weather Service website. The script extracts information from multiple elements listed under the same class name using the BeautifulSoup library. 
+Final Project Write Up
+By Team 2 (Aggeliki and Surendra)
 
-- Copy the **NWS_WeatherForecast.py** file and paste it into the online Python compiler: https://repl.it/languages/python
-Make sure you are using Python version 2.7. You can check the Python version in the compiler window on the right.
-
-- Read the description and comments in the script to understand the purpose of the script
-
-- Run the script. You will see some packages being installed in the compiler window when you run it for the first time.
-
-- The script returns the 5-day forecast for Worcester, MA (Lat: 42.2634, Lon: -71.8022) with the latitude and longitude information provided. Using the latitude and longitude values, it generates the following URL through string concatenation: https://forecast.weather.gov/MapClick.php?lat=42.2634&lon=-71.8022
-
-- Open this URL in a Firefox or Chrome browser. Locate the information that is being outputted in our script. Right click on this and select the Inspect Element option. This will launch the Inspector window that helps locate different elements on the page.
-
-- Notice that all forecast containers in this section are located in the _forecast-tombstone_ class inside the _li_ tag. In order to scrape multiple elements listed under the same class name, we utilize the _findAll()_ function from BeautifulSoup. The tag and class names are required arguments for this function.
-
-### Edit the NWS_ WeatherForecast.py script to add the following functionality:
-1. Take latitude and longitude values as inputs in decimal degrees from user
-
-2.	Convert the latitude and longitude values to strings to generate the URL for the selected location. Pass this URL as an argument in the _get()_ request.
-
-3.	The returned forecast information did not preserve its spacing during the scraping process. Using the _replace()_ function, fix any spacing issues with the output
-
-4.	Convert the final output to uppercase
-
-Remember to update the Script1.py file to include comments and documentation in your script to tell me what it’s doing!
-
-## Final Project: Script 2
-### Your Chosen Assignment
-For this script, you will complete the assignment that you have proposed, which involves modifying a previous exercise. Remember to update the Script2.py file to include comments and documentation in your script to tell me what it’s doing!
-
-## Final Project: Documentation
-### Changing this README
-Your write-up will be here, on this README page. You will need to edit this page with your new text: you do **not** need to keep these instructions on your README! 
+October 4th 2019
+IDCE 302-Intro to Python Programming
+SCRIPT 1 
+WEB-SCRAPING WEATHER FORECAST INFORMATION
+The first script for the final project was a modified version of the web scraping scripts we worked in class. The script basically uses beautiful soup, a python library which parses html and xml documents to “grab” information from a given website and “spit” the information on the screen in a formatted style. It is commonly used for web scraping to convert complicated scripts that make up a webpage into a number of python elements that are easier to handle.
+I was totally unaware of this library of python prior to taking this class because I did not need to use it before. Therefore, being introduced to BeautifoulSoup was actually good and I found it quite interesting. Since we were already given something to begin with, it was easier to work with that and modify it. I did not have major issues although at some point I was wondering if there was a quicker and/or more efficient way of cleaning text that needs formatting or when words are stuck together and you need spacing in between. For the capitalization of letters I had to do google search which directed me in a page by stackoverflow: https://stackoverflow.com/questions/9257094/how-to-change-a-string-into-uppercase
+As I said above I am very glad we were introduced in class of this library as I can see few uses as obtaining publically available data for natural hazards such as seismicity etc which most of the times is provided as tabular data that needs to be copied pasted from a webpage.
+SCRIPT 2
+CALCULATING WATER RUNOFF
+The second script we chose as part of our final project work is an improvement of an early script we wrote in class. The original script was a very basic script that calculated runoff for a small area. Everything was provided and no function was defined. 
+It is not unusual that coders start with existing code that at least partially does the job. The original runoff program is not very flexible and numbers have to be changed every time one has to calculate runoff. This is not very efficient way of working neither very practical. For this project, we have improved the runoff code to calculate streamflow by accommodating other variables like precipitation and evapotranspiration and make it more flexible to accept variable input without restrictions on the size of land where runoff is calculated. The input for the variables is provided by user at prompt. The goal was to produce a cleaner, more efficient code that has flexibility.
+Both scripts were written in Python 2.7
