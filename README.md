@@ -16,7 +16,7 @@ I was totally unaware of this library of python prior to taking this class becau
 
 For the capitalization of letters I had to do google search which directed me in a page by stackoverflow: https://stackoverflow.com/questions/9257094/how-to-change-a-string-into-uppercase
 
-As I said above I am very glad we were introduced in class to this library as I can see few uses. For example, I have thought of obtaining publically available data for natural hazards such as seismicity etc which most of the times is provided as tabular data that needs to be copied and pasted from a webpage.
+As I said above I am very glad we were introduced to this library as I can see few uses. For example, I have thought of obtaining publically available data for natural hazards such as seismicity which is most of the times provided as tabular data that needs to be copied and pasted from a webpage.
 
 ## SCRIPT 2: CALCULATING WATER RUNOFF
 
