@@ -1,5 +1,5 @@
-#Final Project Write Up
-#By Team 2 (Aggeliki and Surendra)
+# Final Project Write Up
+# By Team 2 (Aggeliki and Surendra)
 
 #October 4th 2019
 #IDCE 302-Intro to Python Programming
