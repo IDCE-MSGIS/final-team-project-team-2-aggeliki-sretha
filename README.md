@@ -6,7 +6,11 @@
 
 ## SCRIPT 1: WEB-SCRAPING WEATHER FORECAST INFORMATION
 
-This script is a modified version of the web scraping script we worked previously. It uses beautiful soup, a python library which parses html and xml documents to “grab” information from a given website and “spit” the information on the screen in a formatted style. It is commonly used for web scraping to convert complicated scripts that make up a webpage into a number of python elements that are easier to handle.
+This script is a modified version of the web scraping script we worked previously. It uses beautiful soup, a python library which parses html and xml documents to “grab” information from a given website and “spit” the information on the screen in a formatted style. It is commonly used for web scraping to convert complicated scripts that make up a webpage into a number of python elements that are easier to handle. Step by step the script does the following:
+
+- It scrapes the 5-day weather forecast from the National Weather Service website. The script extracts information from multiple elements listed under the same class name using the BeautifulSoup library. 
+- This script is written with Python version 2.7. 
+- The script returns the 5-day forecast for a user-selected location (latitude and longitude information need to be provided). 
 
 I was totally unaware of this library of python prior to taking this class because I did not need to use it before. Therefore, being introduced to BeautifoulSoup was actually good and I found it quite interesting. Since we already had something to work with, it was easier to work with that and modify it. Isn't this after all the way to go about programming? I did not have major issues although at some point I was wondering if there was a quicker and/or more efficient way of cleaning text that needs formatting or when words are stuck together and you need spacing in between. What if I want to web scrape a bunch of items and there are always words stuck together? The replace() command works well if there is a pattern in the way words need to be formatted but what if there are too many cases of those?
 
