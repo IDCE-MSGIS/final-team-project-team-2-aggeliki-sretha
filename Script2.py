@@ -13,6 +13,7 @@
 # B = Breadth of the watershed (meters)
 # A = Area of the field (meters squared)
 
+# Calculate runoff
 def calculate_runoff(P):
     ET = 0.6*P  # Evapotranspiration (ET) in inches per day
     R = P - ET # Runoff (R) in inches per day
